@@ -25,7 +25,6 @@ Include the script on your page.
 Fitty rescales the target element so it purposely overflows the parent container, it then tests the size against the available space and scales it back according to the space to overflow ratio.
 
 
-
 ## Options
 
 You can pass two option properties.
@@ -52,6 +51,7 @@ fitty('#my-element', {
 });
 ```
 
+
 ## Note
 
 - Will not work if the element is not part of the DOM or is set to `display:none`.
@@ -63,6 +63,11 @@ fitty('#my-element', {
 - Modern browsers
 - IE 8+
 
+
 ## License
 
 MIT
+
+## Vulnerabilities
+
+[![Known Vulnerabilities](https://snyk.io/test/github/verdy-p/fitty/badge.svg?targetFile=package.json)](https://snyk.io/test/github/verdy-p/fitty?targetFile=package.json)
